@@ -64,7 +64,6 @@ function renderList() {
 }
 
 
-
 const deletePopup = document.getElementById("deletePopup");
 const confirmDelete = document.getElementById("confirmDelete");
 const cancelDelete = document.getElementById("cancelDelete");
