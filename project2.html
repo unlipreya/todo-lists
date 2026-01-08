@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2: JavaScript To-Do List App</title>
+    <link rel="stylesheet" href="project2.css">
+</head>
+<div class="head-nav">
+    <div class="title">
+        <div class="number">#2</div>
+        <div class="text">JavaScript <br>To-Do List</div>
+    </div>
+    <div class="home-btn">
+        <a href="/portweb.html"><img src="/port-element/homew.svg">
+            <div>HOME</div>
+        </a>
+    </div>
+</div>
+<div class="project-meta">
+    <span>Role: Front-End Developer</span>
+    <span>Type: Personal Project</span>
+    <span>Duration: 5 days</span>
+</div>
+<div class="container">
+    <div class="main-box">
+        <div class="top">
+            <button class="exitbtn">✕</button>
+        </div>
+        <div class="title-in-box">
+            task lists to do
+        </div>
+        <div class="content">
+            <div class="inputlists">
+                <div class="section">
+                    <label for="add">Add New Lists (+)</label>
+                    <input type="text" id="add" name="add+" />
+                    <button class="btn">Add</button>
+                </div>
+                <div class="mascot"><img src="/port-element/demo-app-design.png" /></div>
+            </div>
+            <div class="showlists">
+                <div id="collectLists">
+                    </ก>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="popup-overlay" id="exitPopup">
+    <div class="popup-box">
+        <p>Are you sure to want exit this app?</p>
+        <div class="popup-actions">
+            <button id="confirmExit">Yes</button>
+            <button id="cancelExit">Cancel</button>
+        </div>
+    </div>
+</div>
+
+<div class="popup-overlay" id="deletePopup">
+    <div class="popup-box">
+        <p>Delete this task?</p>
+        <div class="popup-actions">
+            <button id="confirmDelete">Delete</button>
+            <button id="cancelDelete">Cancel</button>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+<body>
+
+</body>
+
+</html>
